@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "http-server": "^14.1.0"
+  },
+  "name": "proyecto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "http-server -p 8436"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvelynBenitez/Proyecto-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvelynBenitez/Proyecto-Portfolio/issues"
+  },
+  "homepage": "https://github.com/EvelynBenitez/Proyecto-Portfolio#readme",
+  "description": ""
+}

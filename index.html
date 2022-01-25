@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a4bf518463.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="Estilo.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="d-flex bd-highlight align-items-center bg-dark text-white">
+                <div class="me-auto p-2 bd-highlight">
+                    <a href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa" target="_blank" style="color:white ; text-decoration: none">
+                    <img src="./img/APLogo-20-20.png" alt="" width="100" class="d-inline-block align-text-center">
+                Yo Programo</a>
+                </div>
+                <div class="p-2 bd-highlight">
+                    <a href="https://www.linkedin.com/in/evelyn-benitez-66a3854a/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="p-2 bd-highlight">
+                    <button type="button" class="btn btn-light">Iniciar sesión</button>
+                </div>
+            </div>
+        </nav>
+    <div>
+        <div class="contenedor">
+            <div class="fotoPerfil"> 
+                <img src="./img/FotoPerfil.jpg" alt="Foto de perfil" class="imgRedonda">
+            </div>
+            <!--<img src="./img/Portada-01.jpg" alt="Foto de portada" width="100%"/> -->
+            <div class="texto-encima">
+                <h1><b>Benitez Viera Evelyn</b></h1>
+                <h3>Full stack developer jr</h3>
+            </div>
+            <!--<div class="fotoPerfil"> 
+                <img src="./img/FotoPerfil.jpg" alt="Foto de perfil" class="imgRedonda">
+            </div>
+        -->
+        </div>   
+    </div>
+    </header>
+    <div class="sobreMi">
+        <div class="container">
+                <div class="row">
+                    <div class="col-10"> <h2>Sobre mi</h2> </div>
+                    <div class="col-2"> <i class="fas fa-pencil-alt" onclick="editar('editSobreMi','guardarSobreMi')"></i> 
+                    <i class="fas fa-trash-alt" onclick="borrarSobreMi()"></i> </div>
+                </div>
+            <div>
+                <div>
+                    <p id="textoSobreMi">Diseñadora de Imagen y Sonido, con habilidades para el diseño gráfico, fotografía, desarrollo full stack, gestión proyectos y administración. 
+                    Experiencia en reingenieria de procesos (relevamiento, análisis y diseño en BPMN) y control de calidad. 
+                    Capacitada en trabajo autogestionado, cooperativas de trabajo, emprendedurismo y economía social. </p>      
+                </div>
+                <div>
+                    <input id="editSobreMi" type="text" style="display:none">
+                    <button id="guardarSobreMi" type="button" onclick="guardarSobreMi()" style="display:none">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <section>
+        <div class="container">
+        <div class="container-fluid">
+                <h2>Experiencia laboral</h2>
+        </div>
+        <div>
+            <div class= "imgLogos">
+                <a href="https://www.instagram.com/ebrazcomunicacion/" target="_blank" >
+                <img src="./img/experiencia-4.png" alt="" width="100"></a>
+                <div class="texto-exp"> 
+                    <h4>EBRAZ Comunicación</h4>
+                    <h5>Diseñadora, agente de ventas y secretaria - Enero 2016 a la actualidad</h5>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">             
+                <p>Secretaria de consejo de administración. 
+                Emprendimiento propio. Proyecto cooperativo de diseño y comunicación. Organización y procesos de trabajo, gestión de tramite de registro de cooperativas, gestión de ventas, manejo de redes, diseño gráfico para comunicación interna y clientes particulares. </p>
+                </div>
+            </div>
+        </div>
+        <div>   
+            <div class= "imgLogos">
+                <a href=---->
+                <img src="./img/experiencia-3.jpg" alt="" width="100" class="imgLogos"></a>
+                <div class="texto-exp">
+                    <h4>Instituto Nacional de la Propiedad Industrial - INPI</h4>
+                    <h5>Asesora vicepresidencia - Mayo 2019 - Junio 2020</h5>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                <p>Ingenieria de procesos, relevamiento y análisis de los procesos del organismo, plan de mejora para los mismos, implementación de procesos en lineas productivas, control de implementaciones. Propuestas para nuevos desarrollos dentro del organismo.</p>
+                </div>
+            </div> 
+        </div>
+        <div>    
+            <div class= "imgLogos">
+                <a href=---->
+                <img src="./img/experiencia-2.jpg" alt="" width="100" class="imgLogos"></a>
+                <div class="texto-exp">
+                    <h4>Cooperativa Proyecto Coopar</h4>
+                    <h5>Gerente y Diseñadora - Mayo 2017 - Abril 2019</h5>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                <p>Gestión de ventas, presupuestos, coordinación de impresión y preparación gráfica. Administración contable, liquidación de retiros de excedentes, cobranzas, pago a proveedores, IVA compras-ventas. 
+                Diseño para clientes particulares, federaciones y ONGs, entre otros. Administración de redes sociales para la comercialización de servicios.</p>
+                </div>
+            </div> 
+        </div>
+        <div>
+            <div class= "imgLogos">
+                <a href=---->
+                <img src="./img/experiencia-1.png" alt="" width="100" class="imgLogos"></a>
+                <div class="texto-exp">
+                    <h4>Cooperativa Perseguidores</h4>
+                    <h5>Diseñadora y tesorera - Febrero 2014 - Dic 2016</h5>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                <p>Como diseñadora, me desempeñé en mejorar la imagen de la empresa con la creación de logotipo, piezas publicitarias, mejora de la página web, redes sociales, diseño de material  impreso y digital para área de ventas y diseño a pedido de clientes.
+                Asumí como tesorera encargándome de la administración contable y gestión de la empresa, IVA compras-ventas, coordinación de cadena de producción, proveedores y gestión de ventas. Incorporación de Sistema de gestión contable para la optimización de la gestión de la cooperativa.</p>
+                </div>     
+            </div>
+        </div>
+        </div>
+        </section>
+    </div>
+    <div>
+        <section>
+        <div class="container">
+            <div class="container-fluid">
+                <h2>Educación</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                    <div class="card" style="width: 18rem;">
+                    <a href="http://www.fadu.uba.ar/"><img src="img/FADU.png" class="card-img-top" alt="Facultad de diseño y urbanismo"></a>
+                        <div class="card-body">
+                    <h5>Universidad de Buenos Aires</h5>
+                    <h6>Diseñadora de Imagen y Sonido</h6>
+                    <p class="card-text">Carrera de Diseño audiovisual, orientada al cine y animación.
+                    2006 - 2014</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div class="card" style="width: 18rem;">
+                    <a href="https://www.imagecampus.edu.ar/"><img src="img/imageCampus.png" class="card-img-top" alt="Facultad de diseño y urbanismo"></a>
+                        <div class="card-body">
+                    <h5>Image Campus</h5>
+                    <h6>Modeladora 3D</h6>
+                    <p class="card-text">Formación profesional en modelado 3D.
+                        2018</p>
+                        </div>
+                    </div>
+                    </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                    <a href="https://www.argentina.gob.ar/inaes"><img src="img/INAES.png" class="card-img-top" alt="Facultad de diseño y urbanismo"></a>
+                        <div class="card-body">
+                    <h5>INAES</h5>
+                    <h6>Contabilidad para cooperativas</h6>
+                    <p class="card-text">Capacitación en contabilidad para cooperativas
+                    2015 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                    <a href="https://www.wipo.int/portal/es/"><img src="img/OMPI.png" class="card-img-top" alt="Facultad de diseño y urbanismo"></a>
+                        <div class="card-body">
+                    <h5>OMPI</h5>
+                    <h6>Agente de la Propiedad Industrial</h6>
+                    <p class="card-text">Curso de propiedad industrial, búsquedas y registros nacionales e internacionales.
+                        2020 - Instancia presencial suspendida por causas relacionadas al COVID-19 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            </section>
+    </div> 
+    <section class="sobreMi">
+        <h2>Habilidades</h2>
+    </section>
+    <section>
+        <h2>Proyectos</h2>
+    </section>
+    <div>
+        <footer>Contacto y redes</footer>
+    </div>
+</body>
+    <script type="text/javascript" src="app/editar.js"></script>
+    <script type="text/javascript" src="app/guardarSobreMi.js"></script>
+    <script type="text/javascript" src="app/borrarSobreMi.js"></script>
+</html>
